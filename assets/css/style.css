@@ -8,7 +8,11 @@ body {
     background-repeat: no-repeat;
     height: 840px;
     background-color: #422a41;
-    opacity: 0.85;
+}
+
+#bodyCont {
+    background-color: #422a41;
+    /* opacity: 0.90; */
 }
 
 #gameTitle {
@@ -25,7 +29,7 @@ body {
     font-family: 'Gochi Hand', cursive;
     line-height: 24px;
     font-size: 24px;
-    height: 470px;
+    height: 480px;
     opacity: 0.90;
 }
 
@@ -66,4 +70,33 @@ p {
     float: right;
     /* width: 50%; */
     height: 130px;
+}
+
+#numberSpot {
+    background-color: darkgrey;
+    height: 75px;
+    opacity: 0.75;
+}
+
+#randomNumber {
+    /* background-color: darkgrey; */
+    /* width: 100%; */
+    height: 100%
+}
+
+#wintotalVar {
+    /* background-color: darkgrey */
+    /* width: 100%; */
+    height: 100%
+}
+
+#losetotalVar {
+    height: 100%
+}
+
+#thirdDiv {
+    /* background-color: darkgray */
+    /* width: 100%; */
+    height: 100%;
+    font-family: 'Gochi Hand', cursive;
 }
